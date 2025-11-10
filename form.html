@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/form.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <title>Document</title>
+</head>
+<body>
+    <section class="form">
+        <h4>Оставить заявку</h4>
+        <p>для консультации и расчёта по вашему проекту</p>
+        <form action="" class="feedback-form" id="feedbackForm">
+            <div class="form-group">
+                <input
+                    type="text"
+                    class="form-input"
+                    id="name"
+                    name="name"
+                    placeholder="Имя"
+                    required
+                />
+            </div>
+            <div class="form-group">
+                <input
+                    type="tel"
+                    class="form-input"
+                    id="phone"
+                    name="phone"
+                    placeholder="Телефон"
+                    required
+                />
+            </div>
+            <div class="form-group">
+                <input
+                    type="text"
+                    class="form-input"
+                    id="city"
+                    name="city"
+                    placeholder="Город"
+                    required
+                />
+            </div>
+            <div class="form-group">
+                <textarea
+                    name="comment"
+                    id="comment"
+                    class="form-textarea"
+                    placeholder="Комментарий"
+                ></textarea>
+            </div>
+            <div class="file-upload-container">
+                <span class="file-label">Файл</span>
+                <div class="file-previews" id="filePreviews"></div>
+                <label for="file" class="file-button">загрузить</label>
+                <input
+                    type="file"
+                    class="file-input"
+                    id="file"
+                    name="files[]"
+                    accept="image/*"
+                    multiple
+                />
+            </div>
+            <button type="submit" class="submit-button" id="submitButton">
+                Отправить
+            </button>
+
+            <div id="messageContainer"></div>
+        </form>
+    </section>
+
+    <script src="scripts/form.js"></script>
+</body>
+</html>
