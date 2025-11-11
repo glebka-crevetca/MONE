@@ -9,7 +9,7 @@ RewriteRule ^ /%1 [NC,L,R]
 
 Options +SymLinksIfOwnerMatch
 
-DirectoryIndex index.html index.php
+DirectoryIndex index.html domashniy.html tambovskaya.html westgarden.html policy.html
 
 <IfModule mod_expires.c>
     ExpiresActive On
