@@ -112,6 +112,20 @@ h4 {
   font-weight: 500;
 }
 
+.soglasie {
+  color: #1b1b1b;
+  font-size: 14px;
+  font-family: "Manrope", Sans-Serif;
+  font-weight: 400;
+  margin-top: 12px;
+}
+.soglasie a {
+  color: #1b1b1b;
+  font-size: 14px;
+  font-family: "Manrope", Sans-Serif;
+  font-weight: 500;
+}
+
 .submit-button {
   background-color: #fdfdfd;
   color: #1b1b1b;
@@ -241,6 +255,12 @@ h4 {
   }
   .file-label {
     font-size: 4.7vw;
+  }
+  .soglasie {
+    font-size: 3vw;
+  } 
+  .soglasie a {
+    font-size: 3vw;
   }
   .file-button {
     padding: 2px 18px;

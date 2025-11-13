@@ -1,0 +1,124 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+:focus,
+:active {
+  outline: none;
+}
+a:focus,
+a:active {
+  outline: none;
+}
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+html {
+  overflow-y: overlay;
+  overflow-y: scroll;
+}
+html,
+body {
+  height: max-content;
+  overflow-x: hidden;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 1vw;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  font: "Inter", Sans-Serif;
+  background-color: #fdfdfd;
+  scrollbar-color: #fdfdfd;
+}
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+input::-ms-clear {
+  display: none;
+}
+button {
+  cursor: pointer;
+}
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+a,
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+ul li {
+  list-style: none;
+}
+img {
+  vertical-align: top;
+}
+a[href^="#"]:focus {
+  outline: none;
+}
+html {
+  scroll-behavior: auto;
+}
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&display=swap");
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 40px;
+  font-weight: 500;
+  font-family: "Inter", Sans-Serif;
+  color: #1b1b1b;
+}
+p {
+  color: #1b1b1b;
+  font-size: 16px;
+  font-family: 'Manrope', Sans-Serif;
+}
+.container {
+    margin-top: 160px;
+    padding: 0 60px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.container p {
+    margin-top: 60px;
+}
+@media (max-width: 440px) {
+    .container {
+        margin-top: 20em;
+        padding: 0 10px
+    }
+    h1 {
+        font-size: 35px;
+        text-align: center;
+    }
+}
