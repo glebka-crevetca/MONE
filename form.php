@@ -1,8 +1,8 @@
 <?php
 header('Content-Type: application/json');
 
-$botToken = '8145189789:AAHvAuHdyZUfUNtYp-J3Na5gn-4tnrAKoCA';
-$chatId = '781209463';
+$botToken = '8298467479:AAEFJo_-CnEADWnDupaLWdviyXQfwihkh7k';
+$chatId = '517686543';
 
 $name = trim($_POST['name'] ?? '');
 $phone = trim($_POST['phone'] ?? '');

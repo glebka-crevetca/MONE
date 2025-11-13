@@ -159,8 +159,8 @@ main {
   justify-content: space-between;
 }
 .project > img {
-  width: 440px;
-  height: 300px;
+  width: 31.4em;
+  height: 21.4em;
   object-fit: cover;
   background-repeat: no-repeat;
   border-radius: 5px;
@@ -256,7 +256,7 @@ main {
 }
 
 .slide {
-  width: 440px;
+  width: 31.4em;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -273,52 +273,52 @@ main {
 }
 
 .pos-prev {
-  left: -25%;
-  height: 240px;
+  left: -23%;
+  height: 17.14em;
   z-index: 0;
   transform: scale(0.8);
   opacity: 0;
 }
 .pos-1 {
-  left: -5%;
-  height: 260px;
+  left: -6%;
+  height: 18.6em;
   z-index: 1;
   transform: scale(0.85);
 }
 .pos-2 {
-  left: 15%;
-  height: 280px;
+  left: 13%;
+  height: 20em;
   z-index: 2;
   transform: scale(0.9);
 }
 .pos-3 {
-  left: calc(50% - 220px);
-  height: 300px;
+  left: calc(50% - 15.7em);
+  height: 21.4em;
   z-index: 3;
   transform: scale(1);
 }
 .pos-4 {
   left: 56%;
-  height: 280px;
+  height: 20em;
   z-index: 2;
   transform: scale(0.9);
 }
 .pos-5 {
-  left: 76%;
-  height: 260px;
+  left: 78%;
+  height: 18.6em;
   z-index: 1;
   transform: scale(0.85);
 }
 .pos-6 {
-  left: 95%;
-  height: 240px;
+  left: 90%;
+  height: 17.14em;
   z-index: 0;
   transform: scale(0.8);
   opacity: 0;
 }
 .pos-next {
   left: 1400px;
-  height: 240px;
+  height: 17.14em;
   z-index: 0;
   transform: scale(0.8);
   opacity: 0;
@@ -469,7 +469,7 @@ main {
 .work-part {
   position: relative;
   height: 406px;
-  width: 325px;
+  width: 23.2em;
   border-radius: 5px;
   border: 1px solid #1b1b1b;
   padding: 20px 25px 7px 25px;
